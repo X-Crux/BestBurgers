@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page2">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="563dp"
+        android:layout_height="1068dp"
+        android:contentDescription="@string/menu_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resource__1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:baselineAligned="false"
+        android:gravity="clip_horizontal|center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/p2mb1"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_bur0"
+            android:onClick="pageBurgerStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/bur0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p2mb2"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_on"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_cola1"
+            android:onClick="pageColaStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/cola1"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p2mb3"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_box0"
+            android:onClick="pageBoxStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/box0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p2mb4"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_nav0"
+            android:onClick="pageNavStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/nav0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_c1"
+        style="@style/frame_burger_menu"
+        android:layout_width="359dp"
+        android:layout_height="170dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView1_c3"
+            style="@style/txt_cola_price"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="300 мл 90 руб"
+            android:translationY="125sp" />
+
+        <TextView
+            android:id="@+id/textView1_c2"
+            style="@style/txt_cola_price"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:text="400 мл 110 руб"
+            android:translationY="75sp" />
+
+        <TextView
+            android:id="@+id/textView1_c1"
+            android:text="800 мл 130 руб"
+            style="@style/txt_cola_price" />
+
+        <Button
+            android:id="@+id/button_plus_13"
+            style="@style/btn_add_cola"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:translationY="110sp"
+            app:icon="@android:drawable/ic_input_add" />
+
+        <Button
+            android:id="@+id/button_plus_12"
+            style="@style/btn_add_cola"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:translationY="60sp"
+            app:icon="@android:drawable/ic_input_add" />
+
+        <Button
+            android:id="@+id/button_plus_11"
+            style="@style/btn_add_cola"
+            android:translationY="10sp"
+            app:icon="@android:drawable/ic_input_add"
+            app:iconPadding="0sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            style="@style/img_frame_cola"
+            app:srcCompat="@drawable/n1" />
+
+        <TextView
+            android:id="@+id/textView_c1"
+            style="@style/txt_frame_burger_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Напиток №1" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_c2"
+        style="@style/frame_burger_menu"
+        android:layout_width="359dp"
+        android:layout_height="170dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout_c1">
+
+        <TextView
+            android:id="@+id/textView2_c3"
+            style="@style/txt_cola_price"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="300 мл 90 руб"
+            android:translationY="125sp" />
+
+        <TextView
+            android:id="@+id/textView2_c2"
+            style="@style/txt_cola_price"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:text="400 мл 110 руб"
+            android:translationY="75sp" />
+
+        <TextView
+            android:id="@+id/textView2_c1"
+            style="@style/txt_cola_price"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:text="800 мл 130 руб" />
+
+        <Button
+            android:id="@+id/button_plus_21"
+            style="@style/btn_add_cola"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:translationY="10sp"
+            app:icon="@android:drawable/ic_input_add" />
+
+        <Button
+            android:id="@+id/button_plus_22"
+            style="@style/btn_add_cola"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:translationY="60sp"
+            app:icon="@android:drawable/ic_input_add" />
+
+        <Button
+            android:id="@+id/button_plus_23"
+            style="@style/btn_add_cola"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:translationY="110sp"
+            app:icon="@android:drawable/ic_input_add" />
+
+        <TextView
+            android:id="@+id/textView_c2"
+            style="@style/txt_frame_burger_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Напиток №2" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            style="@style/img_frame_cola"
+            android:layout_width="220sp"
+            android:layout_height="140sp"
+            app:srcCompat="@drawable/n2" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_c3"
+        style="@style/frame_burger_menu"
+        android:layout_width="359dp"
+        android:layout_height="170dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout_c2">
+
+        <TextView
+            android:id="@+id/textView3_c3"
+            style="@style/txt_cola_price"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="800 мл 130 руб"
+            android:translationY="125sp" />
+
+        <TextView
+            android:id="@+id/textView3_c2"
+            style="@style/txt_cola_price"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:text="400 мл 110 руб"
+            android:translationY="75sp" />
+
+        <TextView
+            android:id="@+id/textView3_c1"
+            style="@style/txt_cola_price"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:text="800 мл 130 руб" />
+
+        <Button
+            android:id="@+id/button_plus_33"
+            style="@style/btn_add_cola"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:translationY="110sp"
+            app:icon="@android:drawable/ic_input_add" />
+
+        <Button
+            android:id="@+id/button_plus_32"
+            style="@style/btn_add_cola"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:translationY="60sp"
+            app:icon="@android:drawable/ic_input_add" />
+
+        <Button
+            android:id="@+id/button_plus_31"
+            style="@style/btn_add_cola"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:translationY="10sp"
+            app:icon="@android:drawable/ic_input_add" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            style="@style/img_frame_cola"
+            android:layout_width="220sp"
+            android:layout_height="140sp"
+            app:srcCompat="@drawable/n3" />
+
+        <TextView
+            android:id="@+id/textView_c3"
+            style="@style/txt_frame_burger_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Напиток №3" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

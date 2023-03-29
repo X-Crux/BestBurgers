@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1000sp"
+    tools:context=".page1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="563dp"
+        android:layout_height="1068dp"
+        android:contentDescription="@string/menu_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resource__1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:baselineAligned="false"
+        android:gravity="clip_horizontal|center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5">
+
+        <Button
+            android:id="@+id/p1mb1"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_on"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_bur1"
+            android:onClick="pageBurgerStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/bur1"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p1mb2"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_cola0"
+            android:onClick="pageColaStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/cola0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p1mb3"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_box0"
+            android:onClick="pageBoxStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/box0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p1mb4"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_nav0"
+            android:onClick="pageNavStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/nav0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_g1"
+        android:layout_width="359dp"
+        android:layout_height="150sp"
+        android:alpha="0.8"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/button_g1"
+            style="@style/btn_frame_burger_left"
+            android:text="В корзину"
+            app:cornerRadius="4sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView2_g1"
+            style="@style/txt1_frame_burger_left"
+            android:text="Цена: 200 руб Вес: 300 гр Состав: свенина, сыр, лук, листья салата, майонез, соус горчичный, помидоры, огурцы" />
+
+        <TextView
+            android:id="@+id/textView_g1"
+            style="@style/txt_frame_burger_left"
+            android:text="Гамбургер №1" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            style="@style/img_frame_burger_left"
+            app:srcCompat="@drawable/g1" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_g2"
+        style="@style/frame_burger_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout_g1">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            style="@style/img_frame_burger_right"
+            app:srcCompat="@drawable/g2" />
+
+        <TextView
+            android:id="@+id/textView_g2"
+            style="@style/txt_frame_burger_right"
+            android:text="Гамбургер №2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/txt1_frame_burger_right"
+            android:text="Цена: 200 руб Вес: 300 гр Состав: свенина, сыр, лук, листья салата, майонез, соус горчичный, помидоры, огурцы" />
+
+        <Button
+            android:id="@+id/button_g2"
+            style="@style/btn_frame_burger_right"
+            android:text="В корзину"
+            app:cornerRadius="4sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_g3"
+        style="@style/frame_burger_menu"
+        android:layout_width="359dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout_g2">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            style="@style/img_frame_burger_left"
+            android:layout_width="200sp"
+            android:layout_height="120sp"
+            app:srcCompat="@drawable/g3" />
+
+        <TextView
+            android:id="@+id/textView_g3"
+            style="@style/txt_frame_burger_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гамбургер №3" />
+
+        <TextView
+            android:id="@+id/textView2_g3"
+            style="@style/txt1_frame_burger_left"
+            android:layout_width="115sp"
+            android:layout_height="102sp"
+            android:text="Цена: 200 руб Вес: 300 гр Состав: свенина, сыр, лук, листья салата, майонез, соус горчичный, помидоры, огурцы" />
+
+        <Button
+            android:id="@+id/button_g3"
+            style="@style/btn_frame_burger_left"
+            android:layout_width="110sp"
+            android:layout_height="37sp"
+            android:text="В корзину"
+            tools:ignore="TouchTargetSizeCheck" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_g4"
+        style="@style/frame_burger_menu"
+        android:layout_width="359dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout_g3">
+
+        <Button
+            android:id="@+id/button_g4"
+            style="@style/btn_frame_burger_right"
+            android:layout_width="110sp"
+            android:layout_height="37sp"
+            android:text="В корзину" />
+
+        <TextView
+            android:id="@+id/textView2_g4"
+            style="@style/txt1_frame_burger_right"
+            android:layout_width="125sp"
+            android:layout_height="128sp"
+            android:text="Цена: 200 руб Вес: 300 гр Состав: свенина, сыр, лук, листья салата, майонез, соус горчичный, помидоры, огурцы" />
+
+        <TextView
+            android:id="@+id/textView_g4"
+            style="@style/txt_frame_burger_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гамбургер №4" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            style="@style/img_frame_burger_right"
+            android:layout_width="200sp"
+            android:layout_height="120sp"
+            app:srcCompat="@drawable/g4" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_g5"
+        style="@style/frame_burger_menu"
+        android:layout_width="359dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout_g4">
+
+        <Button
+            android:id="@+id/button_g5"
+            style="@style/btn_frame_burger_left"
+            android:layout_width="110sp"
+            android:layout_height="37sp"
+            android:text="В корзину" />
+
+        <TextView
+            android:id="@+id/textView2_g5"
+            style="@style/txt1_frame_burger_left"
+            android:layout_width="115sp"
+            android:layout_height="102sp"
+            android:text="Цена: 200 руб Вес: 300 гр Состав: свенина, сыр, лук, листья салата, майонез, соус горчичный, помидоры, огурцы" />
+
+        <TextView
+            android:id="@+id/textView_g5"
+            style="@style/txt_frame_burger_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гамбургер №5" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            style="@style/img_frame_burger_left"
+            android:layout_width="200sp"
+            android:layout_height="120sp"
+            app:srcCompat="@drawable/g5" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

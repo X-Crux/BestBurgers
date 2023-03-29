@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page3">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="563dp"
+        android:layout_height="1068dp"
+        android:contentDescription="@string/menu_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resource__1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="650dp"
+        android:baselineAligned="false"
+        android:gravity="clip_horizontal|center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/p3mb1"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_bur0"
+            android:onClick="pageBurgerStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/bur0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p3mb2"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_cola0"
+            android:onClick="pageColaStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/cola0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p3mb3"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_on"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_box1"
+            android:onClick="pageBoxStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/box1"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p3mb4"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_nav0"
+            android:onClick="pageNavStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/nav0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_b"
+        style="@style/frame_burger_menu"
+        android:layout_width="351dp"
+        android:layout_height="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/textView_check_list"
+            style="@style/txt_frame_checklist"
+            android:text="Гамбургер №2 = 200 руб\nГамбургер №3 = 200 руб\nНапиток №1, 800 мл = 130 руб\nНапиток №3, 400 мл = 110 руб" />
+
+        <TextView
+            android:id="@+id/textView_top"
+            style="@style/txt_frame_burger_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Итого в корзине" />
+
+        <View
+            android:id="@+id/divider2"
+            style="@style/line_horizon"
+            android:layout_width="310dp"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider"
+            android:translationY="90sp" />
+
+        <View
+            android:id="@+id/divider"
+            style="@style/line_horizon" />
+
+        <TextView
+            android:id="@+id/textView_bot"
+            style="@style/txt_frame_burger_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Общая стоимость: 640 руб"
+            android:translationY="90sp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="446dp"
+        android:layout_height="1011dp"
+        android:layout_marginTop="-40dp"
+        android:contentDescription="@string/main_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/istockphoto_1203988866_1024x1024" />
+
+    <ImageView
+        android:id="@+id/imageView_main_logo"
+        android:layout_width="343dp"
+        android:layout_height="237dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/best_burgers" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="341dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="62dp"
+        android:backgroundTint="#B3FFFFFF"
+        android:fontFamily="@font/roboto_bold"
+        android:onClick="pageBurgerStart"
+        android:text="@string/main_button"
+        android:textColor="@color/main_button_txt"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:cornerRadius="4sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

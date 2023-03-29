@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BestBurgers</string>
+    <string name="main_button">Сделать заказ</string>
+    <string name="main_bg">main_bg</string>
+    <string name="menu_bg">menu_bg</string>
+    <string name="menu_butt_b0">menu_butt_b0</string>
+    <string name="menu_butt_b1">menu_butt_b1</string>
+    <string name="menu_butt_bur0">menu_butt_bur0</string>
+    <string name="menu_butt_bur1">menu_butt_bur1</string>
+    <string name="menu_butt_cola0">menu_butt_cola0</string>
+    <string name="menu_butt_cola1">menu_butt_cola1</string>
+    <string name="menu_butt_box0">menu_butt_box0</string>
+    <string name="menu_butt_box1">menu_butt_box1</string>
+    <string name="menu_butt_nav0">menu_butt_nav0</string>
+    <string name="menu_butt_nav1">menu_butt_nav1</string>
+    <string name="menu_bur1_img">menu_bur1_img</string>
+    <string name="menu_bur2_img">menu_bur2_img</string>
+</resources>

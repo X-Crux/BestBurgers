@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="frame_burger_menu">
+        <item name="android:layout_width">359dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="img_frame_burger_left">
+        <item name="android:layout_width">200sp</item>
+        <item name="android:layout_height">120sp</item>
+        <item name="android:alpha">1.5</item>
+        <item name="android:contentDescription">@string/menu_bur1_img</item>
+        <item name="android:translationX">10sp</item>
+        <item name="android:translationY">23sp</item>
+    </style>
+
+    <style name="txt_frame_burger_left">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:translationX">20sp</item>
+    </style>
+
+    <style name="txt1_frame_burger_left">
+        <item name="android:layout_width">115dp</item>
+        <item name="android:layout_height">102dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:translationX">220sp</item>
+        <item name="android:translationY">10sp</item>
+    </style>
+
+    <style name="btn_frame_burger_left">
+        <item name="android:layout_width">110sp</item>
+        <item name="android:layout_height">37sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:translationX">220sp</item>
+        <item name="android:translationY">110sp</item>
+    </style>
+
+    <style name="img_frame_burger_right">
+        <item name="android:layout_width">200sp</item>
+        <item name="android:layout_height">120sp</item>
+        <item name="android:alpha">1.5</item>
+        <item name="android:contentDescription">@string/menu_bur2_img</item>
+        <item name="android:translationX">150sp</item>
+        <item name="android:translationY">23sp</item>
+    </style>
+
+    <style name="txt_frame_burger_right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:translationX">230sp</item>
+    </style>
+
+    <style name="txt1_frame_burger_right">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">128dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:translationX">15sp</item>
+        <item name="android:translationY">10sp</item>
+    </style>
+
+    <style name="btn_frame_burger_right">
+        <item name="android:layout_width">110sp</item>
+        <item name="android:layout_height">37sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:translationX">15sp</item>
+        <item name="android:translationY">110sp</item>
+    </style>
+
+    <style name="btn_add_cola">
+        <item name="android:layout_width">60sp</item>
+        <item name="android:layout_height">60sp</item>
+        <item name="android:scaleX">0.6</item>
+        <item name="android:scaleY">0.6</item>
+        <item name="android:translationX">230sp</item>
+    </style>
+
+    <style name="txt_cola_price">
+        <item name="android:layout_width">60sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:translationX">290sp</item>
+        <item name="android:translationY">25sp</item>
+    </style>
+
+    <style name="img_frame_cola" parent="img_frame_burger_left">
+        <item name="android:layout_width">220sp</item>
+        <item name="android:layout_height">140sp</item>
+    </style>
+
+    <style name="line_horizon">
+        <item name="android:layout_width">310dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:translationX">20sp</item>
+        <item name="android:translationY">20sp</item>
+    </style>
+
+    <style name="txt_frame_checklist" parent="txt1_frame_burger_right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:translationX">25sp</item>
+        <item name="android:translationY">25sp</item>
+    </style>
+</resources>

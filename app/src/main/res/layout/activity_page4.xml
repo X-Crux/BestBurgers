@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page4">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="563dp"
+        android:layout_height="1068dp"
+        android:contentDescription="@string/menu_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resource__1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="650dp"
+        android:baselineAligned="false"
+        android:gravity="clip_horizontal|center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/p4mb1"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_bur0"
+            android:onClick="pageBurgerStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/bur0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p4mb2"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_cola0"
+            android:onClick="pageColaStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/cola0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p4mb3"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_off"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_box0"
+            android:onClick="pageBoxStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/box0"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/p4mb4"
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:backgroundTint="@color/menu_button_on"
+            android:backgroundTintMode="src_atop"
+            android:contentDescription="@string/menu_butt_nav1"
+            android:onClick="pageNavStart"
+            app:cornerRadius="4sp"
+            app:icon="@drawable/nav1"
+            app:iconPadding="0sp"
+            app:iconSize="60sp"
+            app:iconTintMode="multiply" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_n"
+        style="@style/frame_burger_menu"
+        android:layout_width="359dp"
+        android:layout_height="370dp"
+        android:alpha="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <FrameLayout
+            android:layout_width="360sp"
+            android:layout_height="300sp"
+            android:layout_gravity="center_horizontal"
+            android:translationY="70sp">
+
+            <ImageView
+                android:id="@+id/imageView_map"
+                android:layout_width="330sp"
+                android:layout_height="280sp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/__2023_03_25__20_53_47" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView_top_addr"
+            style="@style/txt_frame_burger_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Наши контакты" />
+
+        <View
+            android:id="@+id/divider3"
+            style="@style/line_horizon"
+            android:layout_width="310dp"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView_address"
+            style="@style/txt_frame_checklist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Телефон: +7 (999) 000-00-00\nE-mail: vasyapupkin@mail.ru\nАдрес: г. Красноярск, ул. Ленина, д. 1" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
