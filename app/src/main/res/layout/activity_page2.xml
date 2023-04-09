@@ -236,7 +236,7 @@
             style="@style/txt_cola_price"
             android:layout_width="50sp"
             android:layout_height="wrap_content"
-            android:text="800 мл 130 руб"
+            android:text="300 мл 90 руб"
             android:translationY="125sp" />
 
         <TextView

@@ -91,14 +91,41 @@
         android:id="@+id/frameLayout_b"
         style="@style/frame_burger_menu"
         android:layout_width="351dp"
-        android:layout_height="140dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
+        <Button
+            android:id="@+id/button_clear"
+            style="@style/btn_frame_burger_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Очистить"
+            android:translationX="20sp"
+            android:translationY="560sp"
+            app:cornerRadius="4sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button_pay"
+            style="@style/btn_frame_burger_left"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Оплатить"
+            android:translationX="180sp"
+            android:translationY="560sp"
+            app:cornerRadius="4sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
         <TextView
             android:id="@+id/textView_check_list"
             style="@style/txt_frame_checklist"
+            android:layout_width="299dp"
+            android:layout_height="496dp"
             android:text="Гамбургер №2 = 200 руб\nГамбургер №3 = 200 руб\nНапиток №1, 800 мл = 130 руб\nНапиток №3, 400 мл = 110 руб" />
 
         <TextView
@@ -114,7 +141,7 @@
             android:layout_width="310dp"
             android:layout_height="2dp"
             android:background="?android:attr/listDivider"
-            android:translationY="90sp" />
+            android:translationY="525sp" />
 
         <View
             android:id="@+id/divider"
@@ -126,6 +153,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Общая стоимость: 640 руб"
-            android:translationY="90sp" />
+            android:translationY="530sp" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
