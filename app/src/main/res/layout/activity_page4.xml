@@ -103,12 +103,11 @@
             android:layout_gravity="center_horizontal"
             android:translationY="70sp">
 
-            <ImageView
-                android:id="@+id/imageView_map"
+            <com.yandex.mapkit.mapview.MapView
+                android:id="@+id/mapview"
                 android:layout_width="330sp"
                 android:layout_height="280sp"
-                android:layout_gravity="center"
-                app:srcCompat="@drawable/__2023_03_25__20_53_47" />
+                android:layout_gravity="center"/>
         </FrameLayout>
 
         <TextView
