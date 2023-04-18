@@ -1,14 +1,14 @@
 # BestBurgers
 
+============================================================================================
+
 ## Сборка из исходников
 
-### Установка gradle
-
-#### 1
+#### Шаг 1. Установка gradle
 
 Скачать последнюю версию cradle отсюда `https://gradle.org/releases`
 
-#### 2
+#### Шаг 2. Распаковка
 
 ```shell
 $ mkdir /opt/gradle
@@ -17,12 +17,13 @@ $ ls /opt/gradle/gradle-8.1
 LICENSE  NOTICE  bin  getting-started.html  init.d  lib  media
 ```
 
-#### 3
+#### Шаг 3
 
 ```shell
 $ export PATH=$PATH:/opt/gradle/gradle-8.1/bin
 ```
-### Сборка APK
+
+#### Шаг 4. Сборка APK
 
 Из директории проекта запустить команду
 
@@ -30,7 +31,9 @@ $ export PATH=$PATH:/opt/gradle/gradle-8.1/bin
 $ ./gradle
 ```
 
-Путь APK файла: `/Users/lucas/AndroidStudioProjects/BestBurgers/app/build/outputs/apk/debug/app-debug.apk`
+Путь APK файла: `.../BestBurgers/app/build/outputs/apk/debug/app-debug.apk`
+
+============================================================================================
 
 ## APK - BestBurgers.apk
 
@@ -38,16 +41,7 @@ $ ./gradle
 
 ## Скриншоты
 
-![1](/readme/1.png)
-
-![2](/readme/2.png)
-
-![3](/readme/3.png)
-
-![4](/readme/4.png)
-
-![5](/readme/5.png)
-
-![6](/readme/6.png)
-
-![7](/readme/7.png)
+<img src="/readme/0.png" width="500"> <img src="/readme/1.png" width="500">
+<img src="/readme/2.png" width="500"> <img src="/readme/3.png" width="500">
+<img src="/readme/4.png" width="500"> <img src="/readme/5.png" width="500">
+<img src="/readme/6.png" width="500"> <img src="/readme/7.png" width="500">
