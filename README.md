@@ -1,6 +1,6 @@
 # BestBurgers
 
-============================================================================================
+================================================================================
 
 ## Сборка из исходников
 
@@ -33,7 +33,7 @@ $ ./gradle
 
 Путь APK файла: `.../BestBurgers/app/build/outputs/apk/debug/app-debug.apk`
 
-============================================================================================
+================================================================================
 
 ## APK - BestBurgers.apk
 
@@ -41,7 +41,7 @@ $ ./gradle
 
 ## Скриншоты
 
-<img src="/readme/0.png" width="500"> <img src="/readme/1.png" width="500">
-<img src="/readme/2.png" width="500"> <img src="/readme/3.png" width="500">
-<img src="/readme/4.png" width="500"> <img src="/readme/5.png" width="500">
-<img src="/readme/6.png" width="500"> <img src="/readme/7.png" width="500">
+<img src="/readme/0.png" width="400"> <img src="/readme/1.png" width="400">
+<img src="/readme/2.png" width="400"> <img src="/readme/3.png" width="400">
+<img src="/readme/4.png" width="400"> <img src="/readme/5.png" width="400">
+<img src="/readme/6.png" width="400"> <img src="/readme/7.png" width="400">
